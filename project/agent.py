@@ -526,3 +526,24 @@ def run_ragas_evaluation(app):
             })
 
     return results
+
+# from agent import load_agent
+
+# app = load_agent()
+
+# config = {"configurable": {"thread_id": "test"}}
+
+# state = {
+#     "question": "who is elon musk",
+#     "messages": [],
+#     "route": "",
+#     "retrieved": "",
+#     "sources": [],
+#     "answer": "",
+#     "user_name": "",
+#     "tool_result": ""
+# }
+
+# result = app.invoke(state, config=config)
+
+# print(result["answer"])
